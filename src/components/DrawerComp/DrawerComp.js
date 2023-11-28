@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import {
   Drawer,
-  List,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
+ 
   IconButton,
   Tab,
 } from '@mui/material';
@@ -14,7 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 export default function DrawerComp() {
   const [openDrawer, setOpenDrawer] = useState(false);
-  const arryList = ['Home', 'Sign In', 'Register'];
+   
 
   return (
     <React.Fragment>

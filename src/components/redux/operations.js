@@ -7,8 +7,7 @@ import {
 } from 'firebase/auth';
 import { auth } from '../../firebase';
 import { createAction } from '@reduxjs/toolkit';
-import { db } from '../../firebase';
-import {collection, getDoc, addDoc, updateDoc, deleteDoc, getDocs,doc} from "firebase/firestore"
+ 
 
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
@@ -26,7 +25,7 @@ export const addContact = createAsyncThunk(
   'contacts/addContact',
   async (contact, thunkAPI) => {
     try {
-      const currState = thunkAPI.getState();
+    
        
       const response = await phoneApi.create(contact);
       return response.data;
