@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap');
+
+.addContact {
+  display: flex;
+  flex-direction: column;
+
+
+  
+}
+
+.addContactForm {
+  margin-top: 60px;
+  margin-left: 100px;
+  border: 1px solid black;
+  width: 450px;
+  display: flex;
+  border-radius: 15px;
+  padding: 30px;
+ 
+}
+
+.addContactForm {
+  position: relative;
+  background-color: rgba(253, 245, 245, 0.5);
+
+  color: white;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+}
+
+.addContactForm:hover {
+  border-radius: 0% 0% 0% 0% / 0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.addContact button {
+
+margin-top: 20px;
+  background-color: #030303;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu,
+    'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  flex-direction: column;
+}
+
+.addContact button:before {
+  background-color: initial;
+
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: '';
+  height: 50%;
+  left: 4%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+  width: 92%;
+}
+
+.addContact button:hover {
+  box-shadow: rgba(255, 255, 255, 0.2) 0 3px 15px inset,
+    rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .addContact button {
+    padding: 11px 28px;
+  }
+}
+
+.addContact input {
+margin-top: 10px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+
+.addContact input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.addContact h3 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.addContact h4 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 15px;
+  }
+
+
+@media (min-width: 768px) {
+    .addContactForm {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%; 
+      max-width: 450px; 
+      padding: 20px;
+       
+    }
+  
+    .addContact button {
+      padding: 11px 28px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .addContactForm {
+      margin: 60px  auto; 
+      width:  325px; 
+  
+    .addContact h3 {
+      font-size: 24px; 
+    }
+  
+    .addContact h4 {
+      font-size: 24px;
+      margin-top: 10px; 
+    }
+  }
+}

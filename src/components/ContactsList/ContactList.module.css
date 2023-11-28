@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap');
+
+.contactList {
+  margin-left: 100px;
+  width: 450px;
+  display: flex;
+  margin-top: 15px;
+  padding: 40px 40px 40px 0px;
+  border-radius: 15px;
+  padding: 30px;
+  background: white;
+  color: white;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+  border-color: #030303;
+  background-color: rgba(253, 245, 245, 0.5);
+ 
+    justify-content: center;
+}
+
+ 
+
+.contactList:hover {
+  border-radius: 0% 0% 0% 0% / 0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+}
+.contactList li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  
+
+  display: flex;
+  padding: 10px 0px 10px 0px;
+  color: black;
+}
+
+.contactList p {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  width: auto;
+  margin-right: 50px;
+}
+
+ 
+ 
+.deleteButon  {
+  padding: 5px;
+  margin-left: auto;
+  background-color: #d71010;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu,
+    'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deleteButon::before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: '';
+  height: 50%;
+  left: 4%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+  width: 92%;
+}
+
+.deleteButon:hover {
+  box-shadow: rgba(255, 255, 255, 0.2) 0 3px 15px inset,
+    rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+ 
+@media (min-width: 768px) {
+    .contactList {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 550px;  
+      margin-top: 20px;   
+      padding: 20px;
+    }
+  
+    .contactList li {
+      font-size: 24px;  
+    }
+  
+    .contactList p {
+      margin-right: 90px;  
+    }
+  
+    .deleteButton {
+      padding: 8px 20px;  
+    }
+  }
+  
+ 
+  @media (max-width: 767px) {
+    .contactList {
+      margin: 15px auto;  
+      width: 360px;
+      padding: 10px;
+    }
+  
+    .contactList li {
+      font-size: 20px;  
+    }
+  
+   
+  
+    .deleteButton {
+      padding: 5px 15px;  
+    }
+  }
+  
