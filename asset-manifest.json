@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.5ae91ed2.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.75fd6fab.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.4fb59f1b.js",
     "static/media/polygonal-3d-smartphone-gps-navigation-location-app-travelling-concept-phone-navigator-pin-dark-blue-background-smart-technology-digital-illustration.jpg": "/goit-react-hw-08-phonebook/static/media/polygonal-3d-smartphone-gps-navigation-location-app-travelling-concept-phone-navigator-pin-dark-blue-background-smart-technology-digital-illustration.1b43b513114c1e297203.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.5ae91ed2.css.map": "/goit-react-hw-08-phonebook/static/css/main.5ae91ed2.css.map",
-    "main.75fd6fab.js.map": "/goit-react-hw-08-phonebook/static/js/main.75fd6fab.js.map"
+    "main.4fb59f1b.js.map": "/goit-react-hw-08-phonebook/static/js/main.4fb59f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.5ae91ed2.css",
-    "static/js/main.75fd6fab.js"
+    "static/js/main.4fb59f1b.js"
   ]
 }
